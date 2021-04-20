@@ -6,7 +6,7 @@
 }
 
 .container {
-    width: 1200px;
+    width: 970px;
     margin: 0 auto;
 }
 
@@ -65,8 +65,8 @@ main {
 }
 
 .conteudo_banner img {
-    width: 525px;
-    height: 331px;
+    width: 567px;
+    height: 334px;
     margin-left: 118px;
     margin-bottom: 32px;
 }
@@ -114,15 +114,15 @@ main {
 
 .games {
     background-color: black;
+    justify-content: space-between;
+    display: flex;
+    height: 65px;
+}
+
+.game_images {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 65px;
-    width: 100%;
-}
-
-.games img {
-    margin: 0 auto;
 }
 
 .r6 {
@@ -131,12 +131,12 @@ main {
 }
 
 .ow {
-    width: 48.16px;
+    width: 45.16px;
     height: 45.15px;
 }
 
 .rl {
-    width: 61.57px;
+    width: 56.57px;
     height: 49.58px;
 }
 
@@ -148,4 +148,120 @@ main {
 .ax {
     width: 82.38px;
     height: 43.61px;
+}
+
+.about {
+    width: 1349px;
+    height: 430px;
+    background-image: url(../img/frame1.png);
+    display: flex;
+}
+
+.container_about {
+    height: 381px;
+    width: 1349px;
+    clip-path: polygon(100% 0, 100% 91%, 0 100%, 0 12%);
+    background: linear-gradient(to right, #000000 12.76%, #010101 31.46%, #1C1B1B 90.15%);
+    margin-top: 23px;
+    display: flex;
+}
+
+.tracer {
+    display: flex;
+    height: 550px;
+    width: 537px;
+    margin-left: 793px;
+    margin-top: -301px;
+    position: absolute;
+    z-index: 1;
+}
+
+.textos_about {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-top: 111px;
+    margin-left: 55px;
+    margin-right: 491px;
+}
+
+.textos_about h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    color: white;
+}
+
+.textos_about p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 28px;
+    color: white;
+}
+
+.aovivo_embreve {
+    background-color: black;
+    justify-content: space-between;
+    display: flex;
+    height: 65px;
+}
+
+.aovivo_embreve span {
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.times {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coringao {
+    width: 50px;
+}
+
+.pain {
+    width: 50px;
+    margin-bottom: 4px;
+}
+
+.divisao {
+    height: 41px;
+    width: 2px;
+    background-color: #fff;
+}
+
+.container_em_breve {
+    display: flex;
+}
+
+.intz {
+    width: 50px;
+}
+
+.furia {
+    width: 50px;
+}
+
+.loud {
+    width: 50px;
+}
+
+.santos {
+    width: 50px;
+}
+
+.versus {
+    padding-bottom: 0%;
+}
+
+.aovivo_embreve img {
+    padding-top: 0%;
 }
