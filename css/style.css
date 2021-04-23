@@ -23,7 +23,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 100%;
+        height: 45%;
     }
     
     .img_logo {
@@ -423,6 +423,17 @@
         height: 100%;
     }
     
+    .lista_footer a {
+        font-style: italic;
+        text-transform: uppercase;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: small;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    
     .nav_footer {
         height: 100%;
         display: flex;
@@ -451,17 +462,6 @@
         font-weight: 600;
     }
     
-    footer a {
-        font-style: italic;
-        text-transform: uppercase;
-        color: white;
-        font-family: 'Roboto', sans-serif;
-        font-size: small;
-        line-height: 23px;
-        letter-spacing: 0em;
-        text-align: left;
-    }
-    
     .contato_footer {
         line-height: 25px;
         text-align: center;
@@ -480,6 +480,12 @@
         height: 25px;
     }
     
+    .newsletter button {
+        height: 30px;
+        width: 30%;
+        color: black;
+    }
+    
     .social_img {
         align-items: center;
         display: flex;
@@ -493,4 +499,15 @@
     
      ::marker {
         color: white;
+    }
+    
+    .campo_newslwtter {
+        width: 60%;
+    }
+    
+    .newsletter {
+        display: flex;
+        height: 30px;
+        width: 300px;
+        margin-left: 50;
     }
