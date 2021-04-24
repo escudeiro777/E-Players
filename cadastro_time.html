@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/stylecadastro.css">
-    <title>CadastroJogador</title>
+    <title>CadastroTimes</title>
+    <link rel="stylesheet" href="css/cadastro_time.css">
 </head>
 
 <body>
@@ -22,81 +22,67 @@
             </nav>
         </div>
     </header>
+
     <main>
 
-        <section class="banner_f1">
-            <div class="container img_f1">
-                <img src="img_cadastro_jogador/retangulo f1.png" alt="">
-                <div class="box_conteudo_banner">
-                    <h1>Cadastro de Jogadores</h1>
-                </div>
-            </div>
+        <section class="banner">
+            <h1>Cadastro de Times</h1>
         </section>
-        <section class="cadastro">
-            <div class=" container_cadastro">
-                <div class="container box_cadastro">
-                    <div class="quadrado">
-                        <div class="formularios">
-                            <form action="post" class="inputs">
-                                <div>
-                                    <label for="name">nome do jogador</label>
-                                    <input type="text">
-                                </div>
-                                <div>
-                                    <label for="email">email</label>
-                                    <input type="email">
-                                </div>
-                                <div>
-                                    <label for="pssword">senha</label>
-                                    <input type="password">
-                                </div>
-                        </div>
 
-                        </form>
-                    </div>
+        <section class="cadastro_times">
+            <div class="arrumacao">
+                <div class=" box_times">
+
                     <div class="formularios">
-                        <form class="equipes">
-                            <label class="equipes" for="teams">equipes</label>
-                            <select class="equipes" name="select">
-                    <option value="Escolha">Selecione sua equipe</option>
-                    <option value="1">Corinthians</option>
-                    <option value="1"> INTZ</option>
-                    <option value="1"> pAIN</option>
-                    <option value="1"> SENAI </option>
-                    <option value="1"> INTZ</option>
-                </select>
-
+                        <form action="post" class="inputs">
+                            <div>
+                                <label for="name">Nome da Equipe</label>
+                                <input class="input_jogador" type="text">
+                            </div>
                         </form>
-                        <div class="botao_cadastrar">
-                            <button>cadastrar</button>
+                        <div class="file">
+                            <label for="name">Procurar Emblema</label>
+                            <input class="procurar_emblema" type="file" name="" id="">
+                        </div>
+
+                        <div class="botao">
+                            <button>Cadastrar</button>
                         </div>
                     </div>
+
                 </div>
+                <span>Lista de Times</span>
+
+
+                <section class="tabela">
+                    <div class="container tabela_times">
+                        <div class="tabela">
+                            <table class="tabela_times">
+                                <tr class="cabecalho">
+                                    <th>nome da equipe</th>
+                                    <th>emblema</th>
+                                </tr>
+                                <tr>
+                                    <td>SENAI Cythecs</td>
+                                    <td><img src="img/fla-logo(1).png" style="padding: 10px;"></td>
+                                </tr>
+                                <tr>
+                                    <td>Flamengo</td>
+                                    <td><img src="img/fla-logo(1).png" alt=""></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
         </section>
 
-        <section class="tabela">
-            <div class="lista_jogadores">
-                <span>Lista de Jogadores</span>
-            </div>
-            <div class="container tabela_times">
-                <div class="cabecalho_tabela">
-                    <p>Nome do jogador</p>
-                    <p>Equipe</p>
-                </div>
-                <div class="resto_tabela">
-                    <div class="jogadores">
-                        <p>Odirlei</p>
-                        <p>Thiago</p>
-                    </div>
-                    <div class="times">
-                        <p>SENAI Cytechs</p>
-                        <p>SENAI Cytechs</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+
+
 
     </main>
+
     <footer>
         <div class="container rodape">
             <div class="container_footer">

@@ -1,0 +1,295 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web:wght@700&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /*header*/
+    
+    .container {
+        width: 970px;
+        margin: 0 auto;
+    }
+    
+    header {
+        background-color: #1E1C21;
+        height: 65px;
+        position: fixed;
+        z-index: 2;
+        width: 100%;
+        top: 0px;
+    }
+    
+    .container_header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 95%;
+    }
+    
+    .img_logo {
+        align-items: center;
+        width: 200px;
+        height: 25px;
+    }
+    
+    .info_header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 591px;
+        height: 100%;
+    }
+    
+    .info_header a {
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        font-size: 17px;
+    }
+    /*banner*/
+    
+    .banner {
+        height: 237px;
+        background-image: url(../img_cadastro_time/banner_times.png);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .banner h1 {
+        color: #fff;
+        font-size: 40px;
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: 700;
+        margin-top: 57px;
+    }
+    /*tela cadastro*/
+    
+    .cadastro_times {
+        background-color: #1E1C21;
+        height: 779px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .box_times {
+        background: linear-gradient(180deg, #000000 0%, #424242 25%, #000000 87.5%);
+        width: 770px;
+        height: 340px;
+        margin-top: 56px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /*formulario*/
+    
+    .formularios {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100%;
+    }
+    
+    .input_jogador {
+        width: 575px;
+        height: 18px;
+        background-color: #ABABAB;
+        color: black;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    label {
+        color: #fff;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    }
+    
+    .file {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .procurar_emblema {
+        color: wheat;
+        border-radius: unset;
+    }
+    
+    .botao {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .botao button {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 19px;
+        background-color: #001F70;
+        border-radius: 10px;
+        border-color: #001F70;
+        height: 40px;
+        width: 257px;
+    }
+    /* lista de times */
+    
+    .arrumacao {
+        padding: 10px
+    }
+    
+    .arrumacao span {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+        padding: 28px;
+    }
+    
+    .tabela_times {
+        height: 60px;
+        width: 770px;
+        border-radius: 1px;
+        border-spacing: 0;
+    }
+    
+    .cabecalho {
+        background-color: black;
+        height: 30px;
+    }
+    
+    .tabela_times td {
+        color: white;
+        font-size: 1em;
+        font-family: 'Titillium Web', sans-serif;
+        text-transform: capitalize;
+        text-align: center;
+        border-bottom: solid white;
+        border-right: solid white;
+        border-left: solid white;
+    }
+    
+    .tabela_times th {
+        color: white;
+        font-size: 1em;
+        font-family: 'Titillium Web', sans-serif;
+        text-transform: capitalize;
+        text-align: center;
+        border-bottom: solid white;
+    }
+    /* footer */
+    
+    footer {
+        background-color: #000000;
+        height: 180px;
+        width: 100%;
+        padding-top: 30px;
+    }
+    
+    .container_footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .lista_footer a {
+        font-style: italic;
+        text-transform: uppercase;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: small;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    
+    .nav_footer {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-transform: capitalize;
+        justify-content: space-evenly;
+        width: 207px;
+    }
+    
+    .nav_footer_links {
+        margin-bottom: 22px;
+        margin-right: 12px;
+    }
+    
+    .nav_footer_links span {
+        text-transform: uppercase;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+    }
+    
+    .nav_footer_page span {
+        text-transform: uppercase;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+    }
+    
+    .contato_footer {
+        line-height: 25px;
+        text-align: center;
+        width: 331px;
+    }
+    
+    .contato_footer span {
+        text-transform: uppercase;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+    }
+    
+    a img {
+        width: 200px;
+        height: 25px;
+    }
+    
+    .newsletter button {
+        height: 30px;
+        width: 30%;
+        color: black;
+    }
+    
+    .social_img {
+        align-items: center;
+        display: flex;
+        margin-left: 131px;
+    }
+    
+    .redes_sociais_footer img {
+        width: 26px;
+        height: 25px;
+    }
+    
+     ::marker {
+        color: white;
+    }
+    
+    .campo_newslwtter {
+        width: 60%;
+        margin-left: 58px
+    }
+    
+    .newsletter {
+        display: flex;
+        height: 30px;
+        width: 300px;
+        margin-left: 50;
+    }
+    
+    .input_rodape {
+        margin-left: 50px;
+        height: 30px;
+    }
